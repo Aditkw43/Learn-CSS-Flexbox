@@ -1,0 +1,17 @@
+#box1 {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+
+#box2 {
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+}
+
+#box-container {
+    height: 500px;
+    /* Flex to position Two Boxes */
+    display: flex;
+}
