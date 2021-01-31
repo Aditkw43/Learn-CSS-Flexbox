@@ -18,6 +18,11 @@
 
 /* ----------------------------------------- */
 
+header {
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
+}
+
 header .photo-thumbnail {
     width: 70px;
     height: 70px;
@@ -26,15 +31,21 @@ header .photo-thumbnail {
 
 header .profile-name {
     margin-left: 10px;
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
 }
 
 header h2,
 header h3 {
     margin: 0;
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
 }
 
 header .follow-btn {
     margin: 0px 0px 0px auto;
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
 }
 
 header .follow-btn button {
@@ -54,8 +65,15 @@ header .follow-btn button {
     margin: 20px 0;
 }
 
+footer {
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
+}
+
 footer .stats {
     font-size: 15px;
+    /* Add flex superpower the Tweet Embed */
+    display: flex;
 }
 
 footer .stats strong {
@@ -73,4 +91,22 @@ footer .cta {
 footer .cta button {
     border: 0;
     background: transparent;
+}
+
+/* ----------------------------------------- */
+
+#box-container-2 {
+    height: 500px;
+}
+
+#box-3 {
+    color: red;
+    height: 50%;
+    width: 50%;
+}
+
+#box-4 {
+    color: green;
+    height: 50%;
+    width: 50%;
 }
