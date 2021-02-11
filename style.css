@@ -21,6 +21,8 @@
 header {
     /* Add flex superpower the Tweet Embed */
     display: flex;
+    /* apply the flex-direction property to create rows in the tweet embed */
+    flex-direction: row;
 }
 
 header .photo-thumbnail {
@@ -33,6 +35,10 @@ header .profile-name {
     margin-left: 10px;
     /* Add flex superpower the Tweet Embed */
     display: flex;
+    /* Apply the flex-direction property to create a column in the name */
+    flex-direction: column;
+    /* Apply the justify-content property to create a column in the name */
+    justify-content: center;
 }
 
 header h2,
@@ -46,6 +52,8 @@ header .follow-btn {
     margin: 0px 0px 0px auto;
     /* Add flex superpower the Tweet Embed */
     display: flex;
+    /* Apply align-items property in the tweet embed */
+    align-items: center;
 }
 
 header .follow-btn button {
@@ -68,6 +76,8 @@ header .follow-btn button {
 footer {
     /* Add flex superpower the Tweet Embed */
     display: flex;
+    /* apply the flex-direction property to create rows in the tweet embed */
+    flex-direction: row;
 }
 
 footer .stats {
@@ -96,17 +106,90 @@ footer .cta button {
 /* ----------------------------------------- */
 
 #box-container-2 {
+    background-color: grey;
     height: 500px;
+    display: flex;
+    /* Add some flex-direction to put a flex position */
+    flex-direction: row-reverse;
+    /* Align elements using the justify-content property */
+    justify-content: space-around;
 }
 
 #box-3 {
-    color: red;
-    height: 50%;
-    width: 50%;
+    background-color: red;
+    height: 100%;
+    width: 25%;
 }
 
 #box-4 {
-    color: green;
-    height: 50%;
-    width: 50%;
+    background-color: green;
+    height: 100%;
+    width: 25%;
+}
+
+/* ------------------------------------------ */
+#box-container-3 {
+    background-color: grey;
+    height: 500px;
+    display: flex;
+    /* Align elements using the align-items property */
+    align-items: center;
+}
+
+#box-5 {
+    background-color: cyan;
+    height: 200px;
+    font-size: 24px;
+}
+
+#box-6 {
+    background-color: orange;
+    height: 200px;
+    font-size: 12px;
+}
+
+/* --------------------------------------------- */
+
+#box-container-4 {
+    background-color: grey;
+    height: 500px;
+    display: flex;
+    /* Align elements using the align-items property */
+    align-items: center;
+}
+
+#box-7 {
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    font-size: 24px;
+}
+
+#box-8 {
+    background-color: orange;
+    height: 200px;
+    font-size: 12px;
+}
+
+#box-9 {
+    background-color: rgb(85, 255, 0);
+    height: 200px;
+    font-size: 24px;
+}
+
+#box-10 {
+    background-color: rgb(128, 0, 255);
+    height: 200px;
+    font-size: 12px;
+}
+
+#box-11 {
+    background-color: cyan;
+    height: 200px;
+    font-size: 24px;
+}
+
+#box-12 {
+    background-color: orange;
+    height: 200px;
+    font-size: 12px;
 }
